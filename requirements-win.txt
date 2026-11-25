@@ -1,0 +1,9 @@
+# Windows版 追加依存パッケージ
+-r requirements.txt
+
+# Windows WASAPI ループバック（PC内部音声の直接キャプチャ）用
+PyAudioWPatch>=0.2.12.6
+
+# NVIDIA GPU (CUDA 12) 高速推論用ライブラリ（PyTorch不要でfaster-whisperをGPU動作させる）
+nvidia-cublas-cu12
+nvidia-cudnn-cu12

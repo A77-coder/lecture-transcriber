@@ -1,0 +1,16 @@
+# Python 仮想環境・キャッシュ
+.venv/
+.venv_mac/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ビルド生成物・配布ZIP
+build/
+dist/
+*.spec.bak
+LectureTranscriber-for-Mac-Source.zip
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
